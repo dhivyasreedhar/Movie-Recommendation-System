@@ -1,1 +1,4 @@
 # Movie-Recommendation-System
+
+A movie recommendation system that uses a item-based collaborative filtering algorithm. It takes a movie input from the user and recommends 10 movies based on the entered movie. 
+The movie lens dataset is used.
