@@ -1,6 +1,8 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+import os
 import recommend
+port = int(os.environ.get('PORT', 5000))
 
 app = Flask(__name__)
 CORS(app) 
@@ -11,4 +13,4 @@ def recommend_movies():
         return jsonify(res)
 
 if __name__=='__main__':
-        app.run(port = 5000, debug = True)
+        app.run(port = port, debug = True)
