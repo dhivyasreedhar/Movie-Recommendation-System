@@ -1,6 +1,7 @@
 # Movie-Recommendation-System
 
 API Link : [https://movie-find-api.herokuapp.com/movie?title=insert-movie-name](https://movie-find-api.herokuapp.com/movie?title=insert-movie-name)
+
 A movie recommendation API that uses a item-based collaborative filtering algorithm. It takes a movie input from the user and recommends 10 movies based on the entered movie. 
 The TMDB 5000 movies dataset is used. It is built using python and deployed on Heroku.
 
